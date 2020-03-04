@@ -2,6 +2,16 @@ html {
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer {
+    margin-top: auto;
+}
+
 header, main, footer {
     text-align: center;
 }
@@ -14,6 +24,20 @@ section.donors {
 section.form {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 45px
+}
+
+form input, form button {
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 8px 16px;
+    box-sizing: border-box; /*força os elementos a respeitarem o width */
+    border-radius: 4px;
+    border: 1px red solid
+}
+
+.form h2 {
+    text-align: right;
 }
 
 header, .form, main {
@@ -21,4 +45,8 @@ header, .form, main {
     width: 90%;
     max-width: 500px;
     margin-left: auto;
+}
+
+header h1, main h2 {
+    margin-bottom: 70px;
 }
