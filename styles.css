@@ -1,0 +1,24 @@
+html {
+    margin: 0;
+}
+
+header, main, footer {
+    text-align: center;
+}
+
+section.donors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header, .form, main {
+    margin: 0 auto 70px auto;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+}
