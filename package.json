@@ -2,7 +2,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.2",
-    "nunjucks": "^3.2.0"
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.2"
   },
   "name": "maratonadev",
   "version": "1.0.0",
